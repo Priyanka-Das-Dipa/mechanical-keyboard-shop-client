@@ -51,9 +51,15 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className=" bg-[#393E46]">
+    <div
+      className=""
+      style={{
+        backgroundImage:
+          "linear-gradient(315deg, rgba(240, 240, 240, 0.25), rgba(0, 0, 0, 1) 100%)",
+      }}
+    >
       <div className="container mx-auto">
-        <nav className="flex items-center justify-between  px-4 py-2 text-white mb-24">
+        <nav className="flex items-center justify-between  px-4 py-2 text-white">
           <div className="scale-100 cursor-pointer rounded-2xl py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
             <Link to="/">
               <img src={logo} className="text-white" width={80} alt="" />
