@@ -33,7 +33,7 @@ const BannerSlider = () => {
     return () => clearInterval(intervalId);
   }, [nextSlider]);
   return (
-    <div className="pt-16">
+    <div className="pt-16 container mx-auto">
       <div className="h-60 w-full md:h-[470px] lg:h-[540px] relative overflow-hidden rounded-lg">
         {/* arrow left */}
         <button
