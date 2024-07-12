@@ -42,7 +42,7 @@ const ProductDashboard = () => {
           </ul>
         </nav>
       </aside>
-      <div className="flex-1 p-6 bg-gray-100">
+      <div className="flex-1 p-6 bg-[#f0f0f0]">
         <Outlet />
       </div>
     </div>
