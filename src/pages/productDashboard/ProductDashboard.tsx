@@ -54,7 +54,7 @@ const ProductDashboard = () => {
       </aside>
 
       {/* Content */}
-      <div className="flex-1 p-6 bg-[#f0f0f0]">
+      <div className="flex-1 p-6  bg-[#f0f0f0]">
         {/* Menu icon for mobile and tablet */}
         <div className="md:hidden flex justify-between items-center">
           <div className="scale-100 cursor-pointer rounded-2xl py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
