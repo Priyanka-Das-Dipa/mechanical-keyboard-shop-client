@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 const Featured = () => {
   return (
     <div className="container mx-auto">
       <div className="flex justify-between items-center">
         <h1 className="text-5xl font-bold">Featured Product</h1>
         <div className="flex justify-center items-center gap-2 font-medium">
-          Show All
+          <Link to="/products">See More</Link>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

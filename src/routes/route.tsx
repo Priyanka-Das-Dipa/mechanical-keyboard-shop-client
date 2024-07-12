@@ -6,6 +6,9 @@ import CheckOut from "../pages/checkout/CheckOut";
 import AboutUs from "../pages/aboutUs/AboutUs";
 import ContactUs from "../pages/contactUs/ContactUs";
 import App from "../App";
+import ProductDashboard from "../pages/productDashboard/ProductDashboard";
+import AddProduct from "../pages/addProduct/AddProduct";
+import ProductList from "../pages/productList/ProductList";
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +38,20 @@ export const router = createBrowserRouter([
       {
         path: "contact",
         element: <ContactUs />,
+      },
+    ],
+  },
+  {
+    path: "/product-Management",
+    element: <ProductDashboard />,
+    children: [
+      {
+        path: "add-product",
+        element: <AddProduct />,
+      },
+      {
+        path: "product-list",
+        element: <ProductList />,
       },
     ],
   },

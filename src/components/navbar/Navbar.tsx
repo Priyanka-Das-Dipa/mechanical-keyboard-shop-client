@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../public/images/logo-removebg-preview.png";
+import logo from "../../../public/images/logo.png";
 
 const Navbar = () => {
   const [dropDownState, setDropDownState] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = () => {
       pathName: "Checkout",
     },
     {
-      path: "/productManagement",
+      path: "/product-Management",
       pathName: "Product Management",
     },
     {
@@ -62,7 +62,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-between  px-4 py-2 text-white">
           <div className="scale-100 cursor-pointer rounded-2xl py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
             <Link to="/">
-              <img src={logo} className="text-white" width={80} alt="" />
+              <img src={logo} width={80} alt="" />
             </Link>
           </div>
           <div>

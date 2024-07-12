@@ -1,5 +1,6 @@
 import BannerSlider from "../../components/bannerSlider/BannerSlider";
-import Featured from "../../components/featured/Featured";
+import FeaturedBrands from "../../components/featured/FeaturedBrands";
+import Featured from "../../components/featured/FeaturedItems";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
           <BannerSlider />
         </div>
         <Featured />
+        <FeaturedBrands />
       </div>
     </>
   );
