@@ -5,7 +5,7 @@ import Featured from "../../components/featured/FeaturedItems";
 const Home = () => {
   return (
     <>
-      <div className="bg-[#989898] space-y-7 min-h-screen">
+      <div className="bg-[#f0f0f0] space-y-7 min-h-screen">
         <div
           className="pb-28"
           style={{
