@@ -1,4 +1,5 @@
 import BannerSlider from "../../components/bannerSlider/BannerSlider";
+import FAQ from "../../components/faq/FAQ";
 import FeaturedBrands from "../../components/featured/FeaturedBrands";
 import Featured from "../../components/featured/FeaturedItems";
 
@@ -17,6 +18,7 @@ const Home = () => {
         </div>
         <Featured />
         <FeaturedBrands />
+        <FAQ />
       </div>
     </>
   );

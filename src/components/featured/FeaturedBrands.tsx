@@ -4,9 +4,13 @@ import img3 from "../../../public/images/feature-3.webp";
 
 const FeaturedBrands = () => {
   return (
-    <div className="container mx-auto pt-24">
-      <h1 className="text-5xl font-bold">Featured Brands</h1>
-      <p className="text-lg font-medium pt-2">Some brands that we work with</p>
+    <div className="container mx-auto pt-24 pb-24">
+      <div className="py-7">
+        <h1 className="text-5xl font-bold">Featured Brands</h1>
+        <p className="text-lg font-medium pt-2 pb-7">
+          Some brands that we work with
+        </p>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="bg-[#d9d9d9] pt-28 space-y-5 px-20 rounded-tl-2xl">
           <h1 className="text-5xl font-extrabold">kfaPBT Keycaps</h1>
@@ -19,11 +23,11 @@ const FeaturedBrands = () => {
             Explore
           </button>
         </div>
-        <div className="overflow-hidden">
+        <div className="overflow-hidden rounded-tr-2xl">
           <img
             src={img1}
             alt=""
-            className="transform transition-transform duration-300 hover:scale-110"
+            className="transform transition-transform duration-300 hover:scale-110 "
           />
         </div>
         <div className="overflow-hidden">
@@ -55,7 +59,7 @@ const FeaturedBrands = () => {
             Explore
           </button>
         </div>
-        <div className="overflow-hidden">
+        <div className="overflow-hidden rounded-br-2xl">
           <img
             src={img3}
             alt=""
