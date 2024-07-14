@@ -9,11 +9,9 @@ const Footer = () => {
             <Link to="/">Logo</Link>
 
             <p className="text-[#1A1A1A] font-medium text-sm max-w-[430px] py-5">
-            Sign up to our newsletter to receive exclusive offers.
+              Sign up to our newsletter to receive exclusive offers.
             </p>
-            <div className="flex space-x-5 ">
-              
-            </div>
+            <div className="flex space-x-5 "></div>
           </div>
           <div className="py-5 md:py-0">
             <ul className="space-y-1">
